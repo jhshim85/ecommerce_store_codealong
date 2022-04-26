@@ -418,6 +418,9 @@ button.menuIcon:focus {
   background-color: transparent;
 }
 
+a {
+  display: inline-block;
+}
 a.button {
   color: #084b6d;
   background-color: transparent;
