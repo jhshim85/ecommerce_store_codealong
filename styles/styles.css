@@ -664,6 +664,57 @@ footer .footerNav nav a:focus {
   text-decoration: none;
   color: #084b6d;
 }
+.productsMainContent .guarantees {
+  background-color: #f9d3d3;
+  position: relative;
+}
+.productsMainContent .guarantees h2 {
+  font-size: 0.8rem;
+}
+.productsMainContent .guarantees h3 {
+  font-size: 0.6rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+.productsMainContent .guarantees p {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+.productsMainContent .guarantees img {
+  width: 30px;
+}
+.productsMainContent .guarantees::before {
+  content: "";
+  background-image: url(../assets/wave-3.svg);
+  background-color: #f9d3d3;
+  background-position: top center;
+  background-size: 1500px 60px;
+  background-repeat: repeat-x;
+  position: absolute;
+  height: 3rem;
+  left: 0;
+  right: 0;
+  top: -60px;
+}
+.productsMainContent .guarantees ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.productsMainContent .guarantees ul li {
+  margin: 0 20px;
+  width: calc(25% - 40px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 @media (max-width: 975px) {
   header {
